@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 156px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    box-shadow: 0px 4px 8.7px 0px #00000040;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.menu li{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    gap: 10px;
+    color: #BCAAAA;
+}
+.menu li:hover{
+    color: #EF400F;
+    transition: 1s;
+}
+.header__div{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.header__div__button{
+    width: 219px;
+    height: 63px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 24px;
+    color:  #EF400F;
+    animation: 1s ease-out;
+    border: 2px solid #EF400F;
+}
+.header__div__button:hover{
+    border: none;
+    background-color: #EF400F;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 1.85px 3.15px 0px #EF400F;
+    box-shadow: 5px 8.15px 6.52px 0px #e33d0e;
+
+}
+.section{
+    width: 1440px;
+    height: 1215px;
+    margin: 0 auto;
+
+}
+.section__div{
+    width: 1100px;
+    height: 100px;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 20px 150px; */
+    margin: 20px auto;
+    font-family: "Inter", sans-serif;
+}
+.section__div h1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.ooo{
+    height: 1000px;
+    box-sizing: border-box;
+    margin: 80px 0;
+}
+.dov{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.dov__div{
+    width: 290px;
+    height: 290px;
+    border-radius: 35px;
+    box-shadow: 0px 4px 13.3px 0px #00000040;
+    align-content: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.dov__div h1{
+    font-size: 15px;
+}
+.dov__div h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+.dov__div h4{
+    font-size: 13px;
+}
+.dov__div h4{
+    color: #BCAAAA;
+}
+.h1{
+    color: #BCAAAA;
+}
+.h2{
+    color: #BCAAAA;
+}
+.h4{
+    color: #BCAAAA;
+}
+.dov2{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 30px 0;
+}
+.dov__div10{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 13.3px 0px #00000040;
+    align-content: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    top: 600px;
+    left: 700px;
+    background-color: white;
+}
+.dov__div10 h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(97, 90, 90);
+
+}
+.dov__div10 h3{
+    color: #0D0C5C;
+}
+.dov__div__button{
+    width: 450px;
+    height: 70px;
+    background: linear-gradient(286.17deg, #e33d0e, #ff7d58);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.dov__div__button2{
+    width: 450px;
+    height: 70px;
+    border: 1px solid #EF400F;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: white;
+}
+.footer{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: -70px auto;
+    /* border: 1px solid violet; */
+    box-shadow: 0px 4px 8.7px 0px #00000040;
+}
+.logo{
+    width: 118px;
+    height: 32px;
+}
+.fff{
+    font-size: 16px;
+    color: #000000;
+}
+.fffd{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: underline;
+}
+.mg{
+    color: #0D0C5C;
+}
+.fg{
+    color: #EF400F;
+}
+.mao{
+    width: 350px;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    padding: 0 12px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    width: 1320px;
+    height: 1000px;
+    /* border: 2px solid red;   */
+    margin: 0 auto;
+}

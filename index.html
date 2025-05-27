@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img src="image 2.png" alt="">
+            <ul class="menu">
+                <li><img src="image 4.png" alt="">Home</li>
+                <li><img src="image 5.png" alt="">Learning</li>
+                <li><img src="image 6.png" alt="">Shop</li>
+            </ul>
+            <div class="header__div">
+                <button class="header__div__button">+ Post yaratish</button>
+                <img src="image 7.png" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="section__div">
+            <h1 class="mg"><img src="image 8.png" alt="">Magazin</h1>
+            <input type="text" id="filterInput" class="mao" placeholder="Введите название">
+    <script>
+        document.getElementById('filterInput').addEventListener('input', (event) => {
+            displayItems(event.target.value);
+        });
+    </script>
+            <h1 class="fg"><img src="image 9.png" alt="">Haridlar tarixi</h1>
+        </div>
+        
+        
+    </section>
+    
+            <div class="products"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- <section class="section">
+        <div class="section__div">
+            <h1 class="mg"><img src="image 8.png" alt="">Magazin</h1>
+            <h1 class="fg"><img src="image 9.png" alt="">Haridlar tarixi</h1>
+        </div>
+       <div class="ooo">
+        <div class="dov">
+           <details>
+            <summary> <div class="dov__div">
+                <img src="image 10.png" alt="">
+                <br>
+                <h1>Mars rug</h1>
+                <br>
+                <h2><img src="Coin 1.png" alt="">100 Coins</h2>
+                <br>
+                <br>
+                <h4>24 dona mavjud</h4>
+            </div></summary>
+
+            <div class="dov__div10">
+                <h1>Вы подтверждаете покупку?</h1>
+                <br>
+                <h3>Название товара: Mars rug</h3>
+                <br>
+                <h4>Цена : 100 <img src="Coin 1.png" alt=""></h4>
+                <br>
+                <br>
+                <button class="dov__div__button">Да, купить</button>
+                <br>
+                <br>
+                <button class="dov__div__button2">Отмена</button>
+            </div>
+           </details>
+           <details>
+            <summary><div class="dov__div">
+                <img src="image 22.png" alt="">
+                <br>
+                <h1>Keyboard sticker</h1>
+                <br>
+                <h2><img src="Coin 1.png" alt="">49 Coins</h2>
+                <br>
+                <br>
+                <h4>11 dona mavjud</h4>
+            </div></summary>
+
+            <div class="dov__div10">
+                <h1>Вы подтверждаете покупку?</h1>
+                <br>
+                <h3>Название товара: Keyboard sticker</h3>
+                <br>
+                <h4>Цена : 49 <img src="Coin 1.png" alt=""></h4>
+                <br>
+                <br>
+                <button class="dov__div__button">Да, купить</button>
+                <br>
+                <br>
+                <button class="dov__div__button2">Отмена</button>
+            </div>
+           </details>
+           <details>
+            <summary><div class="dov__div">
+                <img src="image 23.png" alt="">
+                <br>
+                <h1>Smart watch</h1>
+                <br>
+                <h2><img src="Coin 1.png" alt="">899 Coins</h2>
+                <br>
+                <br>
+                <h4>4 dona mavjud</h4>
+            </div></summary>
+
+            <div class="dov__div10">
+                <h1>Вы подтверждаете покупку?</h1>
+                <br>
+                <h3>Название товара: Smart watch</h3>
+                <br>
+                <h4>Цена : 899 <img src="Coin 1.png" alt=""></h4>
+                <br>
+                <br>
+                <button class="dov__div__button">Да, купить</button>
+                <br>
+                <br>
+                <button class="dov__div__button2">Отмена</button>
+           </details>
+            <div class="dov__div">
+                <img src="image 24.png" alt="">
+                <br>
+                <h1 class="h1">Wireless keyboard</h1>
+                <br>
+                <h2 class="h2"><img src="Coin 1.png" alt="">350 Coins</h2>
+                <br>
+                <br>
+                <h4 class="h4">0 dona mavjud</h4>
+            </div>
+        </div>
+        <div class="dov2">
+            <details>
+                <summary><div class="dov__div">
+                    <img src="image 25.png" alt="">
+                    <br>
+                    <h1>Mouse</h1>
+                    <br>
+                    <h2><img src="Coin 1.png" alt="">359 Coins</h2>
+                    <br>
+                    <br>
+                    <h4>24 dona mavjud</h4>
+                </div></summary>
+
+                <div class="dov__div10">
+                    <h1>Вы подтверждаете покупку?</h1>
+                    <br>
+                    <h3>Название товара: Mouse</h3>
+                    <br>
+                    <h4>Цена : 359 <img src="Coin 1.png" alt=""></h4>
+                    <br>
+                    <br>
+                    <button class="dov__div__button">Да, купить</button>
+                    <br>
+                    <br>
+                    <button class="dov__div__button2">Отмена</button>
+            </details>
+            <details>
+                <summary> <div class="dov__div">
+                    <img src="image 26.png" alt="">
+                    <br>
+                    <h1>AirPods</h1>
+                    <br>
+                    <h2><img src="Coin 1.png" alt="">499 Coins</h2>
+                    <br>
+                    <br>
+                    <h4>11 dona mavjud</h4>
+                </div></summary>
+
+                <div class="dov__div10">
+                    <h1>Вы подтверждаете покупку?</h1>
+                    <br>
+                    <h3>Название товара: AirPods</h3>
+                    <br>
+                    <h4>Цена : 499 <img src="Coin 1.png" alt=""></h4>
+                    <br>
+                    <br>
+                    <button class="dov__div__button">Да, купить</button>
+                    <br>
+                    <br>
+                    <button class="dov__div__button2">Отмена</button>
+            </details>
+            <details>
+                <summary> <div class="dov__div">
+                    <img src="image 27.png" alt="">
+                    <br>
+                    <h1>Powerbank</h1>
+                    <br>
+                    <h2><img src="Coin 1.png" alt="">899 Coins</h2>
+                    <br>
+                    <br>
+                    <h4>5 dona mavjud</h4>
+                </div></summary>
+
+                <div class="dov__div10">
+                    <h1>Вы подтверждаете покупку?</h1>
+                    <br>
+                    <h3>Название товара: Powerbank</h3>
+                    <br>
+                    <h4>Цена : 899 <img src="Coin 1.png" alt=""></h4>
+                    <br>
+                    <br>
+                    <button class="dov__div__button">Да, купить</button>
+                    <br>
+                    <br>
+                    <button class="dov__div__button2">Отмена</button>
+            </details>
+            <details>
+                <summary><div class="dov__div">
+                    <img src="image 28.png" alt="">
+                    <br>
+                    <h1>USB flash drive</h1>
+                    <br>
+                    <h2><img src="Coin 1.png" alt="">299 Coins</h2>
+                    <br>
+                    <br>
+                    <h4>21 dona mavjud</h4>
+                </div></summary>
+
+                <div class="dov__div10">
+                    <h1>Вы подтверждаете покупку?</h1>
+                    <br>
+                    <h3>Название товара: USB flash drive</h3>
+                    <br>
+                    <h4>Цена : 299 <img src="Coin 1.png" alt=""></h4>
+                    <br>
+                    <br>
+                    <button class="dov__div__button">Да, купить</button>
+                    <br>
+                    <br>
+                    <button class="dov__div__button2">Отмена</button>
+            </details>
+        </div>
+        <div class="dov2">
+            <details>
+                <summary> <div class="dov__div">
+                    <img src="image 29.png" alt="">
+                    <br>
+                    <h1>Smartphone</h1>
+                    <br>
+                    <h2><img src="Coin 1.png" alt="">3699 Coins</h2>
+                    <br>
+                    <br>
+                    <h4>2 dona mavjud</h4>
+                </div></summary>
+
+                <div class="dov__div10">
+                    <h1>Вы подтверждаете покупку?</h1>
+                    <br>
+                    <h3>Название товара: Smartphone</h3>
+                    <br>
+                    <h4>Цена : 3699 <img src="Coin 1.png" alt=""></h4>
+                    <br>
+                    <br>
+                    <button class="dov__div__button">Да, купить</button>
+                    <br>
+                    <br>
+                    <button class="dov__div__button2">Отмена</button>
+            </details>
+            <details>
+                <summary><div class="dov__div">
+                    <img src="image 30.png" alt="">
+                    <br>
+                    <h1>Playstation 5</h1>
+                    <br>
+                    <h2><img src="Coin 1.png" alt="">7449 Coins</h2>
+                    <br>
+                    <br>
+                    <h4>Ushbu tovarga oldindan buyurtma berish mumkin</h4>
+                </div></summary>
+
+                <div class="dov__div10">
+                    <h1>Вы подтверждаете покупку?</h1>
+                    <br>
+                    <h3>Название товара: Playstation</h3>
+                    <br>
+                    <h4>Цена : 7449 <img src="Coin 1.png" alt=""></h4>
+                    <br>
+                    <br>
+                    <button class="dov__div__button">Да, купить</button>
+                    <br>
+                    <br>
+                    <button class="dov__div__button2">Отмена</button>
+            </details>
+            <details>
+                <summary> <div class="dov__div">
+                    <img src="image 31.png" alt="">
+                    <br>
+                    <h1>Yandex Station</h1>
+                    <br>
+                    <h2><img src="Coin 1.png" alt="">1999 Coins</h2>
+                    <br>
+                    <br>
+                    <h4>4 dona mavjud</h4>
+                </div></summary>
+
+                <div class="dov__div10">
+                    <h1>Вы подтверждаете покупку?</h1>
+                    <br>
+                    <h3>Название товара: Yandex Station</h3>
+                    <br>
+                    <h4>Цена : 1999 <img src="Coin 1.png" alt=""></h4>
+                    <br>
+                    <br>
+                    <button class="dov__div__button">Да, купить</button>
+                    <br>
+                    <br>
+                    <button class="dov__div__button2">Отмена</button>
+            </details>
+            <details>
+                <summary><div class="dov__div">
+                    <img src="image 32.png" alt="">
+                    <br>
+                    <h1>Planshet Samsung</h1>
+                    <br>
+                    <h2><img src="Coin 1.png" alt="">4999 Coins</h2>
+                    <br>
+                    <br>
+                    <h4>24 dona mavjud</h4>
+                </div></summary>
+
+                <div class="dov__div10">
+                    <h1>Вы подтверждаете покупку?</h1>
+                    <br>
+                    <h3>Название товара: Planshet Samsung</h3>
+                    <br>
+                    <h4>Цена : 4999 <img src="Coin 1.png" alt=""></h4>
+                    <br>
+                    <br>
+                    <button class="dov__div__button">Да, купить</button>
+                    <br>
+                    <br>
+                    <button class="dov__div__button2">Отмена</button>
+            </details>
+        </div>
+       </div>
+    </section>
+    <footer class="footer">
+        <h1 class="fff">MARS IT School 2022</h1>
+        <img src="image 2.png" class="logo">
+        <h1 class="fffd">Политика конфидециальности</h1>
+    </footer> -->
